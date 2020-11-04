@@ -1,0 +1,31 @@
+---
+title: "課?<a0>?練習模<e7><89><88>"
+author: "ERIC"
+date: "2020-11-04"
+output: output_format
+params:
+  id: "410773096"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+
+```{r}
+library(lubridate)
+trump_electoral_college_vote <- list(
+  time = ymd_hm("2020-11-03 14:40 "),
+  count = 213
+)
+```
+```{r}
+America_Vote <- list(
+  time = ymd_hm("2020-11-04 14:46"),
+  trump = "213",
+  biden = "224",
+  takesall = "270"
+)
+```
+
